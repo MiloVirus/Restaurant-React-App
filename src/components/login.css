@@ -1,0 +1,313 @@
+.imgNav
+{
+    width: 100px;
+    margin-left: 20px;
+}
+.container-manager
+{
+    width: 50%;
+    background-color: #FCA311;
+    padding: 30px;
+    color:white;
+    border-radius: 20px;
+    margin-top: 5%;
+    text-align: center;
+}
+.container-manager-login
+{
+    width: 50%;
+    background-color: #E5E5E5;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 10%;
+    text-align: center;
+}
+.error
+{
+    background-color: red;
+    border-radius: 20px;
+    width: 60%;
+    color: white;
+    margin: auto;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.container-home
+{
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 10%;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 8%;
+}
+.col-img-home
+{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(252, 163, 17, 0.73)),url('../img/cheeseburger.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-radius: 20px; 
+    align-items: flex-end;
+}
+.col-img-home h5
+{
+    color: white;
+    padding: 40px;
+    font-size: 1rem;
+}
+.navbar
+{
+    background-color: #14213D;
+    
+}
+.imageMenu
+{
+    width: 12.5vw;
+    border-radius: 20px;
+}
+.container-footer
+{
+    
+    background-color: #E5E5E5 ;
+    height: 600px;
+}
+.contact-form
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+.nav-link
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+}
+.nav-link:hover
+{
+    color: #FCA311;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+}
+.active
+{
+    color: #FCA311;
+}
+.collapse
+{
+    margin-left: 40px;
+}
+td
+{
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    color: #000000;
+    vertical-align: middle;
+}
+tr
+{
+    text-align: center;
+}
+th
+{
+    color: #444444;
+}
+.table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+tbody
+{
+    width: 100%;
+    border-radius: 20px;
+}
+.container h1
+{
+    margin-bottom: 30px;
+}
+.container-menu
+{
+    margin-top: 5%;
+    text-align: center;
+}
+.btn-form
+{
+    background-color: #FCA311;
+    color: white;
+}
+.btn-logout
+{
+    background-color: #14213D ;
+    color: white;
+    margin-top: 20px;
+}
+.btn-form:hover
+{
+    background-color: #FCA311 !important;
+    color: white !important;
+}
+.text-home-main
+{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 50px;
+    padding-top: 10px;
+}
+.h2-main
+{
+    font-weight: 800;
+    font-size: 35px;
+    color: #14213D;
+}
+.contactanos
+{
+    text-align: center;
+}
+.text-home-third
+{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.manager-dashboard
+{
+    background-color: #E5E5E5;
+    max-width: 150px;
+    height: 90vh;
+}
+.dashboard-item
+{
+    padding: 5px;
+    border-radius: 3px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.dashboard-item:hover
+{
+    background-color:#FCA311;
+    color: white;
+}
+.dashboard{
+padding-top: 20px;
+height: 100%;
+}
+.reservations-title
+{
+    text-align: center;
+    padding: 20px;
+}
+.menu-admin-title
+{
+    text-align: center;
+    padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+    .col-img-home
+    {
+        margin-bottom: 25px;
+    }
+    .container-home
+    {
+        padding: 0;
+    }
+    .text-home-main
+    {
+        padding: 0;
+        margin-top: 30px;
+    }
+    .navbar-toggler-icon
+    {
+        color: white;
+    }
+    .container-manager
+    {
+        padding: 5px;
+    }
+    .manager-dashboard
+    {
+        background-color: #E5E5E5;
+        max-width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar{
+        text-align: center;
+        
+    }
+    .navbar-collapse
+    {
+        margin: 0;
+    }
+    .dashboard
+    {
+        background-color: #FCA311;
+        padding: 0;
+    }
+    table
+    {
+        width: 100%;
+    }
+    .dashboard-item
+    {
+        border-bottom: solid 1px #14213D;
+    }
+    .dashboard-item:hover
+    {
+     background-color: #f89900;
+    }
+    .table thead
+    {
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td
+    {
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 25px;
+    };
+    .table td 
+    {
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+    }   
+    td
+    {
+    text-align: right;
+    margin: auto;
+    font-weight: 500;
+    color: #252525;
+    vertical-align: middle;
+    width: 100%;
+    }
+    .table td::before
+    {
+        content:attr(data-label);
+        position: absolute;
+        color: #252525;
+        left: 0;
+        width: 50%;
+        padding-left: 55px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .table-menu td
+    {
+        text-align: center;
+    }
+  }
