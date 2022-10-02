@@ -1,11 +1,15 @@
-echo "# Restaurant-App-React" >> README.md
+echo "# Restaurant-React-App" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/MiloVirus/Restaurant-App-React.git
+git remote add origin https://github.com/MiloVirus/Restaurant-React-App.git
 git push -u origin main
 
-git remote add origin https://github.com/MiloVirus/Restaurant-App-React.git
+
+
+
+
+git remote add origin https://github.com/MiloVirus/Restaurant-React-App.git
 git branch -M main
 git push -u origin main

@@ -7,7 +7,7 @@ import PrivateRoutes from './components/PrivateRoutes';
 import Menu from './components/Menu'
 import {AuthProvider} from './components/AuthContext'
 import Home from './components/Home';
-import { onIdTokenChanged } from 'firebase/auth';
+
 
 function App() {
   return (
